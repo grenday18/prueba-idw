@@ -8,6 +8,8 @@ use Illuminate\Support\Facades\Gate;
 class CommentsController extends Controller
 {
     public function create(){
-        if(Gate::allows('create-comment',Auth::user()))
+        if(Gate::allows('create-comment',Auth::user())){
+            //
+        }
     }
 }
