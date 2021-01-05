@@ -3,10 +3,10 @@
     <top-movies></top-movies>
     <v-row>
         <v-col md="9">
-            
+            <movies-list></movies-list>
         </v-col>
         <v-col md="3">
-
+            <reviews-list></reviews-list>
         </v-col>
     </v-row>
 </div>

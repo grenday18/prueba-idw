@@ -22,6 +22,10 @@ class ReviewsController extends Controller
         Reviews::all();
     }
 
+    public function index(){
+        return Reviews::all();
+    }
+
     protected function organizarDatos($reviews){
         $data = array();
         foreach($reviews as $review){
